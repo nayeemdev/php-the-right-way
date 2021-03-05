@@ -1,14 +1,14 @@
 ---
-title:   Use the Current Stable Version (8.0)
+title:   সর্বশেষ স্ট্যাবল ভার্সন ব্যবহার করুন (8.0)
 isChild: true
 anchor:  use_the_current_stable_version
 ---
 
-## Use the Current Stable Version (8.0) {#use_the_current_stable_version_title}
+## সর্বশেষ স্ট্যাবল ভার্সন ব্যবহার করুন (8.0) {#use_the_current_stable_version_title}
 
-If you are getting started with PHP, start with the current stable release of [PHP 8.0][php-release]. PHP 8.x adds many [new features](#language_highlights) over the older 7.x and 5.x versions. The engine has been largely re-written, and PHP is now even quicker than older versions. PHP 8.0 is a major update of the language and contains many new features and optimizations.
+আপনি যদি PHP শেখা শুরু করতে চান, তাহলে PHP এর সর্বশেষ স্ট্যাবল [PHP 8.0][php-release] ভার্সন দিয়েই শুরু করা আপনার জন্য সবচেয়ে ভালো হবে। পিএইচপি 8.x এ আগের 7.x এবং 5.x ভার্সন এর থেকেঅনেক নতুন ফিচার [new features](#language_highlights) যুক্ত করেছে। পিএইচপি ইঞ্জিনটি মূলত নতুন করে কোড লেখা হয়েছে এবং পিএইচপি এখন পুরানো ভার্শন গুলো থেকে আরও অনেক  দ্রুত কাজ করতে সক্ষম। পিএইচপি 8.0 ল্যাঙ্গুয়েজ একটি বৃহত আপডেট এবং এতে অনেকগুলি নতুন ফিচার এবং optimization রয়েছে।
 
-You should try to upgrade to the latest stable version quickly - PHP 5.6 [is already End of Life](http://php.net/supported-versions.php). Upgrading is easy, as there are not many [backwards compatibility breaks][php-bc]. If you are not sure which version a function or feature is in, you can check the PHP documentation on the [php.net][php-docs] website.
+আপনার দ্রুত স্ট্যাবল ভার্সন এ আপগ্রেড করার চেষ্টা করা উচিত - PHP 5.6 [ইতিমধ্যে সাপোর্ট দেওয়া বন্ধ করে দেয়া হয়েছে](http://php.net/supported-versions.php)। আপগ্রেড করা সহজ, কারণ আগের বেশি [সামঞ্জস্যতা নষ্ট][php-bc] হবে না। কোনও Function বা ফিচার কোন সংস্করণে রয়েছে তা আপনি যদি নিশ্চিত না হন তবে আপনি ওয়েবসাইটটিতে [php.net][php-docs] পিএইচপি ডকুমেন্টেশন চেক করতে পারেন।
 
 [php-release]: http://php.net/downloads.php
 [php-docs]: http://php.net/manual/
