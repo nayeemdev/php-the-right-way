@@ -3,20 +3,13 @@ isChild: true
 anchor:  windows_setup
 ---
 
-## Windows Setup {#windows_setup_title}
+## উইন্ডোস সেটআপ {#windows_setup_title}
 
-You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere.
+আপনি [windows.php.net/download][php-downloads] থেকে বাইনারিজ ডাউনলোড করতে পারবেন। PHP এক্সট্র্যাক্ট করার পরে যাতে আপনি যেকোন জায়গা থেকে এক্সিকিউট করতে পারেন তাই PHP ফোল্ডার(যেখানে php.exe আছে) এর Root [PATH][windows-path] সেট করুন।
 
-For learning and local development, you can use the built in webserver with PHP 5.4+ so you don't need to worry about
-configuring it. If you would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such
-as the [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] and [WAMP][wamp] will
-help get a Windows development environment up and running fast. That said, these tools will be a little different from
-production so be careful of environment differences if you are working on Windows and deploying to Linux.
+লোকাল ডেভেলপমেন্ট এবং শেখার জন্য আপনি বিল্ট-ইন ওয়েব সার্ভার ব্যবহার করতে পারেন যাতে আপনাকে সার্ভার কনফিগার নিয়ে কোনো চিন্তা না করতে হয়। আপনি [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] এবং [WAMP][wamp] ব্যবহার করতে পারেন এগুলো উইন্ডোস এনভায়রনমেন্ট দ্রুত সেটআপ করতে সাহায্য করবে।  তবে আপনি উইন্ডোস এনভায়রনমেন্ট এ কাজ করে লিনাক্স এনভায়রনমেন্ট এ ডেপ্লয় করতে চাইলে এই টুলস ব্যবহার এর ক্ষেত্রে সতর্ক হতে হবে কারণ ইটা প্রোডাকশন থেকে কিছুটা আলাদা।
 
-If you need to run your production system on Windows, then IIS7 will give you the most stable and best performance. You
-can use [phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with
-FastCGI built in and ready to go, you just need to configure PHP as a handler. For support and additional resources
-there is a [dedicated area on iis.net][php-iis] for PHP.
+আপনি যদি প্রোডাকশন সিস্টেম উইন্ডোস এ রান করতে চান, তাহলে IIS7 আপনাকে সবথেকে ভালো পারফরমেন্স দেবে। সাধারণ PHP ম্যানেজ এবং কনফিগার এর জন্য আপনি [phpmanager][phpmanager] (IIS7 এর জন্য GUI প্লাগিন)  ব্যবহার করতে পারেন। IIS7 আসে FastCGI built-in এবং ready to go সিস্টেম নিয়ে, আপনার শুধুমাত্র PHP কনফিগার করতে হবে হ্যান্ডলার হিসেবে। PHP এর আরও রিসোর্স এবং সাপোর্ট এর জন্য [iis.net এর ডেডিকেটেড সাইট][php-iis].
 
 Generally running your application on different environment in development and production can lead to strange bugs popping up when you go
 live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a [Virtual Machine](/#virtualization_title).
