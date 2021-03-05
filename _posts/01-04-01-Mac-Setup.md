@@ -3,61 +3,52 @@ isChild: true
 anchor:  mac_setup
 ---
 
-## Mac Setup {#mac_setup_title}
+## Mac সেটআপ {#mac_setup_title}
 
-macOS comes prepackaged with PHP but it is normally a little behind the latest stable release. There are multiple ways to install the latest PHP version on macOS.
+macOS এ PHP আগে থেকে ইনস্টল করা থাকে তবে কিছুটা পুরোনো স্ট্যাবল ভার্সন থাকতে পারে। macOS PHP ইনস্টল করার অনেকগুলো উপায় আছে।
 
-### Install PHP via Homebrew
+### Homebrew এর মাধ্যমে PHP ইনস্টল করুন
 
-[Homebrew] is a package manager for macOS that helps you easily install PHP and various extensions. The Homebrew core repository provides "formulae" for PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, and PHP 8.0. Install the latest version with this command:
+[Homebrew] হলো macOS এর প্যাকেজ ম্যানেজার যার মাধ্যমে অনেক সহজে PHP এবং অন্যান্য অনেক এক্সটেনশন ইনস্টল করা যায়। Homebrew এর মূল রিপোজিটরি PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, and PHP 8.0 এর জন্য "Formulae" প্রোভাইড করে থাকে। বর্তমান ভার্সন ইনস্টল করার জন্য নিচের কম্যান্ড টি চালান:
 
 ```
 brew install php@8.0
 ```
 
-You can switch between Homebrew PHP versions by modifying your `PATH` variable. Alternatively, you can use [brew-php-switcher][brew-php-switcher] to switch PHP versions automatically.
+আপনি `PATH` ভ্যারিয়েবল টি পরিবর্তন করে PHP এর আলাদা আলাদা ভার্সন এ যেতে পারবেন। এছাড়াও আপনি [brew-php-switcher][brew-php-switcher] ব্যবহার করে অটোমেটিক PHP ভার্সন পরিবর্তন করতে পারবেন।
 
-### Install PHP via Macports
+### Macports এর মাধ্যমে PHP ইনস্টল করুন
 
-The [MacPorts] Project is an open-source community initiative to design an
-easy-to-use system for compiling, installing, and upgrading either
-command-line, X11 or Aqua based open-source software on the OS X operating
-system.
+OS X অপারেটিং সিস্টেম এ কম্যান্ড লাইন এর মাধ্যমে ইনস্টল, কম্পাইল, আপগ্রেড সহজতর করার জন্য [MacPorts] প্রজেক্ট টি হচ্ছে একটি ওপেন-সোর্স কমিউনিটি  উদ্যোগ 
 
-MacPorts supports pre-compiled binaries, so you don't need to recompile every
-dependency from the source tarball files, it saves your life if you don't
-have any package installed on your system.
+MacPorts pre-compile binaries সাপোর্ট করে, তাই আপনার সব ডিপেন্ডেন্সি কে পুনরায় মূল ফাইল থেকে কম্পাইল করতে হয় না, এটা আপনার কাজ কে সহজ করে যদি আপনার সিস্টেম এ আগে থেকে কোনো প্যাকেজ ইনস্টল করা না থাকে। 
 
-At this point, you can install `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74` or `php80` using the `port install` command, for example:
+এই মুহুর্তে, আপনি `port install` কম্যান্ড এর সাহায্যে `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74` অথবা `php80` ইনস্টল করতে পারেন ,উদাহরণ স্বরূপ:
 
     sudo port install php74
     sudo port install php80
 
-And you can run `select` command to switch your active PHP:
+এবং আপনি `select` কম্যান্ড এর মাধ্যমে আপনার বর্তমান PHP ভার্সন পরিবর্তন করতে পারবেন:
 
     sudo port select --set php php80
 
-### Install PHP via phpbrew
+### phpbrew এর মাধ্যমে PHP ইনস্টল করুন
 
-[phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
-applications/projects require different versions of PHP, and you are not using virtual machines.
+পিএইচপি এর একাধিক ভার্সন ইনস্টল এবং ম্যানেজ করার জন্য [phpbrew] একটা ভালো টুল। আপনি যদি ভার্চুয়াল মেশিন ব্যবহার না করেন এবং দুটি আলাদা প্রজেক্ট এর জন্য আলাদা PHP ভার্সন এর দরকার তাহলে এই টুল আপনাকে অনেক সাহায্য করবে।
 
-### Install PHP via Liip's binary installer
+### Liip's binary installer এর মাধ্যমে PHP ইনস্টল করুন
 
-Another popular option is [php-osx.liip.ch] which provides one liner installation methods for versions 5.3 through 7.3.
-It doesn't overwrite the PHP binaries installed by Apple, but installs everything in a separate location (/usr/local/php5).
+অন্য একটি জনপ্রিয় অপশন হলো [php-osx.liip.ch] যেটা আপনাকে ভার্সন 5.3 থেকে 7.3 পর্যন্ত এক লাইন এর ইনস্টলেশন পদ্ধতির সুবিধা দিয়ে থাকে।
+এটি অ্যাপল দ্বারা ইনস্টল করা পিএইচপি বাইনারিগুলি ওভাররাইট করে না, কিন্তু আলাদা আলাদা লোকেশন(/usr/local/php5) এ ইনস্টল করে।
 
-### Compile from Source
+### সোর্স থেকে কম্পাইল করা 
 
-Another option that gives you control over the version of PHP you install, is to [compile it yourself][mac-compile].
-In that case be sure to have installed either [Xcode][xcode-gcc-substitution] or Apple's substitute
-["Command Line Tools for XCode"] downloadable from Apple's Mac Developer Center.
+PHP ইনস্টল এর অন্য একটি অপশন হলো [নিজে কম্পাইল][mac-compile] করা। এই মাধ্যমে অবশ্যই আপনাকে দেখতে হবে [Xcode][xcode-gcc-substitution] অথবা Apple's substitute
+["Command Line Tools for XCode"] ইনস্টল করা আছে কি না যেটা Apple's Mac ডেভেলপার সেন্টার থেকে ডাউনলোড করা যায়।
 
-### All-in-One Installers
+### All-in-One ইনস্টলার
 
-The solutions listed above mainly handle PHP itself, and do not supply things like [Apache][apache], [Nginx][nginx] or a SQL server.
-"All-in-one" solutions such as [MAMP][mamp-downloads] and [XAMPP][xampp] will install these other bits of software for
-you and tie them all together, but ease of setup comes with a trade-off of flexibility.
+উপরের সবগুলো পদ্ধতি PHP নিজে হ্যান্ডেল করে এবং  [Apache][apache], [Nginx][nginx] or a SQL server এগুলো প্রোভাইড করে না।"All-in-one" যেমন [MAMP][mamp-downloads] এবং [XAMPP][xampp] হলো এমন সফটওয়্যার যেটা এই সবগুলো একসাথে থাকে এবং দ্রুত সেটআপ করা যায়।
 
 [Homebrew]: https://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
