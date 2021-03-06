@@ -1,4 +1,5 @@
 ---
+title: Mac সেটআপ
 isChild: true
 anchor:  mac_setup
 ---

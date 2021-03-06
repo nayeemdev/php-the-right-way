@@ -1,9 +1,10 @@
 ---
+title: প্রাথমিক ধারণা
 isChild: true
 anchor:  basic_concept
 ---
 
-## Basic Concept {#basic_concept_title}
+## প্রাথমিক ধারণা {#basic_concept_title}
 
 We can demonstrate the concept with a simple, yet naive example.
 

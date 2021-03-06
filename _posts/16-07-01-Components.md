@@ -1,9 +1,10 @@
 ---
+title: কম্পোনেন্টস 
 isChild: true
 anchor:  components
 ---
 
-## Components {#components_title}
+## কম্পোনেন্টস {#components_title}
 
 As mentioned above "Components" are another approach to the common goal of creating, distributing and implementing
 shared code. Various component repositories exist, the main two of which are:

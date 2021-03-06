@@ -1,8 +1,9 @@
 ---
+title: কমিউনিটি
 anchor: community
 ---
 
-# Community {#community_title}
+# কমিউনিটি {#community_title}
 
 The PHP community is as diverse as it is large, and its members are ready and willing to support new PHP programmers.
 Consider joining your local PHP user group (PUG) or attending larger PHP conferences to learn more about the best

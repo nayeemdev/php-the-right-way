@@ -1,9 +1,9 @@
 ---
-title:  Dependency Injection
+title:  ডিপেন্ডেন্সি ইনজেকশন
 anchor: dependency_injection
 ---
 
-# Dependency Injection {#dependency_injection_title}
+# ডিপেন্ডেন্সি ইনজেকশন {#dependency_injection_title}
 
 From [Wikipedia](https://wikipedia.org/wiki/Dependency_injection):
 

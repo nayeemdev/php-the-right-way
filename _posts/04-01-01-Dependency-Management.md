@@ -1,8 +1,9 @@
 ---
+title: ডিপেন্ডেন্সি ম্যানেজমেন্ট
 anchor: dependency_management
 ---
 
-# Dependency Management {#dependency_management_title}
+# ডিপেন্ডেন্সি ম্যানেজমেন্ট {#dependency_management_title}
 
 There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use 
 several of them — these are project dependencies. Until recently, PHP did not have a good way to manage

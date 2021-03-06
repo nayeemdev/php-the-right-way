@@ -1,5 +1,6 @@
 ---
+title: কোডিং অনুশীলন
 anchor: coding_practices
 ---
 
-# Coding Practices {#coding_practices_title}
+# কোডিং অনুশীলন {#coding_practices_title}

@@ -1,9 +1,10 @@
 ---
+title: আরও পড়ুন
 isChild: true
 anchor:  further_reading
 ---
 
-## Further Reading {#further_reading_title}
+## আরও পড়ুন {#further_reading_title}
 
 * [What is Dependency Injection?](http://fabien.potencier.org/article/11/what-is-dependency-injection)
 * [Dependency Injection: An analogy](https://mwop.net/blog/260-Dependency-Injection-An-analogy.html)

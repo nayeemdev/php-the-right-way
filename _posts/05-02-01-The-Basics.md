@@ -1,9 +1,10 @@
 ---
+title: মূল বিষয় 
 isChild: true
 anchor:  the_basics
 ---
 
-## The Basics {#the_basics_title}
+## মূল বিষয় {#the_basics_title}
 
 PHP is a vast language that allows coders of all levels the ability to produce code not only quickly, but efficiently.
 However, while advancing through the language, we often forget the basics that we first learnt (or overlooked) in favor

@@ -1,9 +1,10 @@
 ---
+title: প্রোগ্রামিং দৃষ্টান্ত
 isChild: true
 anchor:  programming_paradigms
 ---
 
-## Programming Paradigms {#programming_paradigms_title}
+## প্রোগ্রামিং দৃষ্টান্ত {#programming_paradigms_title}
 
 PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
 the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in

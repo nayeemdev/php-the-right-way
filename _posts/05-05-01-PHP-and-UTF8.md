@@ -1,10 +1,10 @@
 ---
-title:   Working with UTF-8
+title:   UTF-8 এর সাথে কাজ করা
 isChild: true
 anchor:  php_and_utf8
 ---
 
-## Working with UTF-8 {#php_and_utf8_title}
+## UTF-8 এর সাথে কাজ করা {#php_and_utf8_title}
 
 _This section was originally written by [Alex Cabal](https://alexcabal.com/) over at
 [PHP Best Practices](https://phpbestpractices.org/#utf-8) and has been used as the basis for our own UTF-8 advice_.

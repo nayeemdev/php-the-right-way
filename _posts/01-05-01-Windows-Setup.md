@@ -1,4 +1,5 @@
 ---
+title: উইন্ডোস সেটআপ
 isChild: true
 anchor:  windows_setup
 ---

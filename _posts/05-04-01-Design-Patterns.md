@@ -1,9 +1,10 @@
 ---
+title: ডিজাইন প্যাটার্ন
 isChild: true
 anchor:  design_patterns
 ---
 
-## Design Patterns {#design_patterns_title}
+## ডিজাইন প্যাটার্ন {#design_patterns_title}
 
 When you are building your application it is helpful to use common patterns in your code and common patterns for the
 overall structure of your project. Using common patterns is helpful because it makes it much easier to manage your code

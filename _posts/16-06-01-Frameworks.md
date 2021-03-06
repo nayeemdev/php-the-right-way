@@ -1,9 +1,10 @@
 ---
+title: ফ্রেমওয়ার্ক
 isChild: true
 anchor:  frameworks
 ---
 
-## Frameworks {#frameworks_title}
+## ফ্রেমওয়ার্ক {#frameworks_title}
 
 Rather than re-invent the wheel, many PHP developers use frameworks to build out web applications. Frameworks abstract
 away many of the low-level concerns and provide helpful, easy-to-use interfaces to complete common tasks.

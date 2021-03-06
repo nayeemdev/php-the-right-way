@@ -1,10 +1,10 @@
 ---
-title:   Internationalization and Localization
+title:   আন্তর্জাতিকীকরণ ও স্থানীয়করণ
 isChild: true
 anchor:  i18n_l10n
 ---
 
-## Internationalization (i18n) and Localization (l10n) {#i18n_l10n_title}
+## আন্তর্জাতিকীকরণ(i18n) ও স্থানীয়করণ(l10n) {#i18n_l10n_title}
 
 _Disclaimer for newcomers: i18n and l10n are numeronyms, a kind of abbreviation where numbers are used to shorten
 words - in our case, internationalization becomes i18n and localization, l10n._
