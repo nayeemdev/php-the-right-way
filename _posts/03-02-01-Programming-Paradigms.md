@@ -6,49 +6,39 @@ anchor:  programming_paradigms
 
 ## প্রোগ্রামিং দৃষ্টান্ত {#programming_paradigms_title}
 
-PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
-the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in
-PHP 5.3 (2009), and traits in PHP 5.4 (2012).
+PHP হ'ল নমনীয়, গতিশীল ভাষা যা বিভিন্ন প্রোগ্রামিং কৌশল সমর্থন করে। এটি কয়েক বছর ধরে নাটকীয়ভাবে বিকশিত হয়েছে, উল্লেখযোগ্যভাবে পিএইচপি 5.0 (2004) এ একটি শক্ত অবজেক্ট-ভিত্তিক মডেল, পিএইচপি 5.3 (2009) এ অ্যানোনিমাস ফাংশন এবং নেমস্পেস এবং পিএইচপি 5.4 (2012) এ ট্রেইটস যুক্ত করেছে।
 
-### Object-oriented Programming
+### অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
 
-PHP has a very complete set of object-oriented programming features including support for classes, abstract classes,
-interfaces, inheritance, constructors, cloning, exceptions, and more.
+PHP-তে ক্লাস, অ্যাবস্ট্রাক্ট ক্লাস, ইন্টারফেস, ইনহেরিটেন্স, কন্সট্রাক্টর, ক্লোনিং, এক্সেপশন এবং আরও অনেক কিছু সহ অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং বৈশিষ্ট্যগুলির একটি খুব সম্পূর্ণ সেট আছে।
 
-* [Read about Object-oriented PHP][oop]
-* [Read about Traits][traits]
+* [অবজেক্ট ওরিয়েন্টেড PHP সম্পর্কে পড়ুন][oop]
+* [ট্রেইটস সম্পর্কে পড়ুন][traits]
 
-### Functional Programming
+### ফাংশনাল প্রোগ্রামিং
 
-PHP supports first-class functions, meaning that a function can be assigned to a variable. Both user-defined and
-built-in functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to
-other functions (a feature called _Higher-order Functions_) and functions can return other functions.
+PHP ফার্স্ট-ক্লাস  ফাংশনগুলিকে সমর্থন করে, যার অর্থ একটি ফাংশন একটি ভেরিয়েবলের জন্য বরাদ্দ করা যেতে পারে। উভয় ব্যবহারকারী-সংজ্ঞায়িত এবং বিল্ট-ইন ফাংশন একটি ভ্যারিয়েবল এবং ডায়নামিক ভাবে ইনভোক দ্বারা রেফারেন্স করা যেতে পারে। ফাংশনগুলি অন্যান্য ফাংশনগুলিতে আর্গুমেন্ট হিসাবে পাস করা যেতে পারে (_Higher-order Functions_) এবং ফাংশনগুলি অন্যান্য ফাংশনগুলি ফিরিয়ে দিতে পারে।
 
-Recursion, a feature that allows a function to call itself, is supported by the language, but most PHP code
-is focused on iteration.
+পুনরাবৃত্তি(_Recursion_), এমন একটি বৈশিষ্ট্য যা কোনও ফাংশনকে নিজেকে কল করার অনুমতি দেয়, ল্যাঙ্গুয়েজ দ্বারা এটি সমর্থিত, তবে বেশিরভাগ PHP কোড পুনরাবৃত্তির উপর ফোকাস  করে।
 
-New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
+PHP 5.3 (২০০৯) থেকে নতুন অ্যানোনিমাস ফাংশন (closures সমর্থিত) উপস্থিত রয়েছে।
 
-PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
-can be used interchangeably with anonymous functions in almost all cases.
+PHP ৫.৪ এ অবজেক্ট স্কোপ এর সাথে ক্লোসার বাইন্ড করার ক্ষমতা যোগ করা হয়েছে এবং callable এর জন্য সাপোর্ট উন্নতি করা হয়েছে যাতে এগুলোকে সব ক্ষেত্রে অ্যানোনিমাস ফাংশন এর সাথে ব্যবহার করা যায়।
 
-* Continue reading on [Functional Programming in PHP](/pages/Functional-Programming.html)
-* [Read about Anonymous Functions][anonymous-functions]
-* [Read about the Closure class][closure-class]
-* [More details in the Closures RFC][closures-rfc]
-* [Read about Callables][callables]
-* [Read about dynamically invoking functions with `call_user_func_array()`][call-user-func-array]
+* পড়া চালিয়ে যান [Functional Programming in PHP](/pages/Functional-Programming.html)
+* [Anonymous Functions সম্পর্কে পড়ুন][anonymous-functions]
+* [the Closure class সম্পর্কে পড়ুন][closure-class]
+* [Closures RF সম্পর্কে পড়ুন][closures-rfc]
+* [Callables সম্পর্কে পড়ুন][callables]
+* [dynamically invoking functions with `call_user_func_array()` সম্পর্কে পড়ুন][call-user-func-array]
 
-### Meta Programming
+### মেটা প্রোগ্রামিং
 
-PHP supports various forms of meta-programming through mechanisms like the Reflection API and Magic Methods. There are
-many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
-developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
-available as `__call()` and `__callStatic()`.
+পিএইচপি রিফ্লেকশন এপিআই এবং ম্যাজিক মেথডগুলোর মতো ব্যবস্থার মাধ্যমে বিভিন্ন ধরনের মেটা-প্রোগ্রামিং সমর্থন করে। এখানে অনেকগুলো ম্যাজিক মেথড এভেইলেবল আছে যেমন `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, ইত্যাদি। that allow developers to hook into class behavior. Ruby ডেভেলপাররা প্রায়শই বলে থাকেন যে PHP -তে `method_missing` এর অভাব রয়েছে, তবে এটি `__call ()` এবং `__callStatic ()` হিসাবে এভেইলেবল।
 
-* [Read about Magic Methods][magic-methods]
-* [Read about Reflection][reflection]
-* [Read about Overloading][overloading]
+* [Magic Methods সম্পর্কে পড়ুন][magic-methods]
+* [Reflection সম্পর্কে পড়ুন][reflection]
+* [Overloading সম্পর্কে পড়ুন][overloading]
 
 
 [oop]: https://secure.php.net/language.oop5
