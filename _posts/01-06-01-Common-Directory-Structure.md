@@ -6,13 +6,13 @@ anchor:  common_directory_structure
 
 ## সাধারণ ডিরেক্টরি কাঠামো {#common_directory_structure_title}
 
-A common question among those starting out with writing programs for the web is, "where do I put my stuff?" Over the years, this answer has consistently been "where the `DocumentRoot` is." Although this answer is not complete, it's a great place to start.
+ওয়েবে ডেভেলপ করার জন্য প্রোগ্রাম লিখতে শুরু করা ব্যক্তিদের মধ্যে একটি সাধারণ প্রশ্ন হ'ল "আমি আমার ফাইলগুলো কোথায় রাখি?" বছরের পর বছর ধরে এই উত্তরটি ধারাবাহিকভাবে ইটা হয়ে আসছে "যেখানে `ডকুমেন্ট রুট` রয়েছে"। যদিও এই উত্তরটি সম্পূর্ণ না হলেও এটি শুরু করার জন্য ভালো একটি জায়গা।
 
-For security reasons, configuration files should not be accessible by a site's visitors; therefore, public scripts are kept in a public directory and private configurations and data are kept outside of that directory.
+সুরক্ষার কারণে, কনফিগারেশন ফাইলগুলি কোনও সাইটের দর্শকদের দ্বারা অ্যাক্সেসযোগ্য হওয়া উচিত নয়; অতএব, পাবলিক স্ক্রিপ্টগুলি একটি পাবলিক ডিরেক্টরিতে রাখা হয় এবং প্রাইভেট  ডিরেক্টরি এবং ডেটা সেই ডিরেক্টরিটির বাইরে রাখা হয়।
 
-For each team, CMS, or framework one works in, a standard directory structure is used by each of those entities. However, if one is starting a project alone, knowing which filesystem structure to use can be daunting.
+প্রতিটি টিমের জন্য, সিএমএস বা ফ্রেমওয়ার্কের জন্য একটি স্ট্যান্ডার্ড ডিরেক্টরি কাঠামোতে কাজ করে সেগুলি প্রত্যেকটি এনটিটি এর জন্য ব্যবহৃত হয়। তবে, যদি কেউ একা একা প্রজেক্ট শুরু করে থাকে তবে কোন ফাইল সিস্টেমের কাঠামোটি ব্যবহার করা জরুরী তা জেনে শুরু করে।
 
-[Paul M. Jones] has done some fantastic research into common practices of tens of thousands of github projects in the realm of PHP. He has compiled a standard file and directory structure, the [Standard PHP Package Skeleton], based on this research. In this directory structure, `DocumentRoot` should point to `public/`, unit tests should be in the `tests/` directory, and third party libraries, as installed by [composer], belong in the `vendor/` directory. For other files and directories, abiding by the [Standard PHP Package Skeleton] will make the most sense to contributors of a project.
+[Paul M. Jones] পিএইচপি-র রাজ্যে কয়েক হাজার গিটহাব প্রজেক্ট নিয়ে কমন প্রাকটিস এর বিষয়ে কিছু দুর্দান্ত গবেষণা করেছেন। তিনি এই গবেষণার উপর ভিত্তি করে একটি স্ট্যান্ডার্ড ফাইল এবং ডিরেক্টরি কাঠামো, [Standard PHP Package Skeleton] সংকলন করেছেন। এই ডিরেক্টরি কাঠামোতে, ডকুমেন্টরুট `public/` নির্দেশ করতে হবে, ইউনিট টেস্টগুলি `tests/` ডিরেক্টরিতে এবং থার্ড পার্টি  লাইব্রেরিগুলি, [Composer] দ্বারা ইনস্টল করা হিসাবে, `vendor/` ডিরেক্টরিতে অন্তর্ভুক্ত হবে। অন্যান্য ফাইল এবং ডিরেক্টরিগুলির জন্য, [Standard PHP Package Skeleton] মেনে চলা কোনও প্রকল্পের অবদানকারীদের পক্ষে সবচেয়ে বেশি অর্থবোধ তৈরি করবে।
 
 [Paul M. Jones]: http://paul-m-jones.com/
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
