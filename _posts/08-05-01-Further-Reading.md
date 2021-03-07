@@ -1,9 +1,10 @@
 ---
+title: আরও পড়ুন
 isChild: true
 anchor:  templating_further_reading
 ---
 
-## Further Reading {#templating_further_reading_title}
+## আরও পড়ুন {#templating_further_reading_title}
 
 ### Articles & Tutorials
 

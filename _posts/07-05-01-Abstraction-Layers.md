@@ -1,10 +1,10 @@
 ---
 isChild: true
-title:   Abstraction Layers
+title:   Abstraction লেয়ার
 anchor:  databases_abstraction_layers
 ---
 
-## Abstraction Layers {#databases_abstraction_layers_title}
+## Abstraction লেয়ার {#databases_abstraction_layers_title}
 
 Many frameworks provide their own abstraction layer which may or may not sit on top of [PDO][1]. These will often
 emulate features for one database system that is missing from another by wrapping your queries in PHP methods, giving

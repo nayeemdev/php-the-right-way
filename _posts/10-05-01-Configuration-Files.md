@@ -1,9 +1,10 @@
 ---
+title: কনফিগারেশন ফাইল
 isChild: true
 anchor:  configuration_files
 ---
 
-## Configuration Files {#configuration_files_title}
+## কনফিগারেশন ফাইল {#configuration_files_title}
 
 When creating configuration files for your applications, best practices recommend that one of the following methods be
 followed:

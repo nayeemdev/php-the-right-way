@@ -1,9 +1,10 @@
 ---
+title: আচরণ এর সাথে ডেভেলপমেন্ট
 isChild: true
 anchor:  behavior_driven_development
 ---
 
-## Behavior Driven Development {#behavior_driven_development_title}
+## আচরণ এর সাথে ডেভেলপমেন্ট {#behavior_driven_development_title}
 
 There are two different types of Behavior-Driven Development (BDD): SpecBDD and StoryBDD. SpecBDD focuses on technical
 behavior of code, while StoryBDD focuses on business or feature behaviors or interactions. PHP has frameworks for both

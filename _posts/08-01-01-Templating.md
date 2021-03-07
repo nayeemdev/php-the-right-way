@@ -1,9 +1,9 @@
 ---
-title:  Templating
+title:  টেম্প্লেটিং
 anchor: templating
 ---
 
-# Templating {#templating_title}
+# টেম্প্লেটিং {#templating_title}
 
 Templates provide a convenient way of separating your controller and domain logic from your presentation logic.
 Templates typically contain the HTML of your application, but may also be used for other formats, such as XML.

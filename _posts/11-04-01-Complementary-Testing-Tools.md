@@ -1,9 +1,10 @@
 ---
+title: পরিপূরক পরীক্ষার টুলস
 isChild: true
 anchor:  complementary_testing_tools
 ---
 
-## Complementary Testing Tools {#complementary_testing_tools_title}
+## পরিপূরক পরীক্ষার টুলস {#complementary_testing_tools_title}
 
 Besides individual testing and behavior driven frameworks, there are also a number of generic frameworks and helper
 libraries useful for any preferred approach taken.

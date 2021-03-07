@@ -1,9 +1,10 @@
 ---
+title: এক্সেপশন
 isChild: true
 anchor:  exceptions
 ---
 
-## Exceptions {#exceptions_title}
+## এক্সেপশন {#exceptions_title}
 
 Exceptions are a standard part of most popular programming languages, but they are often overlooked by PHP programmers.
 Languages like Ruby are extremely Exception heavy, so whenever something goes wrong such as a HTTP request failing, or

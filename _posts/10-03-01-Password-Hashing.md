@@ -1,9 +1,10 @@
 ---
+title: পাসওয়ার্ড হ্যাশিং
 isChild: true
 anchor:  password_hashing
 ---
 
-## Password Hashing {#password_hashing_title}
+## পাসওয়ার্ড হ্যাশিং {#password_hashing_title}
 
 Eventually everyone builds a PHP application that relies on user login. Usernames and passwords are stored in a
 database and later used to authenticate users upon login.

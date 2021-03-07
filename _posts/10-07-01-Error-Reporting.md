@@ -1,9 +1,10 @@
 ---
+title: এরর রিপোর্টিং
 isChild: true
 anchor:  error_reporting
 ---
 
-## Error Reporting {#error_reporting_title}
+## এরর রিপোর্টিং {#error_reporting_title}
 
 Error logging can be useful in finding the problem spots in your application, but it can also expose information about
 the structure of your application to the outside world. To effectively protect your application from issues that could

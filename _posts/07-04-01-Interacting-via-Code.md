@@ -1,10 +1,10 @@
 ---
 isChild: true
-title:   Interacting with Databases
+title:   ডাটাবেস ইন্টারঅ্যাকশন
 anchor:  databases_interacting
 ---
 
-## Interacting with Databases {#databases_interacting_title}
+## ডাটাবেস ইন্টারঅ্যাকশন {#databases_interacting_title}
 
 When developers first start to learn PHP, they often end up mixing their database interaction up with their
 presentation logic, using code that might look like this:
