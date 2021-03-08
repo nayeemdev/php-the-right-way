@@ -6,27 +6,21 @@ anchor:  namespaces
 
 ## নেমস্পেস {#namespaces_title}
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP
-code might use the same class name as another. When both libraries are used in the same namespace, they collide
-and cause trouble.
+উপরে উল্লেখিত হয়েছে, PHP কমিউনিটিতে অনেক ডেভেলপার অনেক কোড/লাইব্রেরি তৈরী করেছে। তার মানে হলো একটি লাইব্রেরি এর PHP কোড এ যে ক্লাস ব্যবহার করা হয়েছে সেই একই নামের ক্লাস অন্য লাইব্রেরি তেও ব্যবহার করা হতে পারে। যখন উভয় লাইব্রেরি একই নেমস্পেস এ ব্যবহার করা হয় তখন একই নাম হওয়ার কারণে সমস্যা হয়।
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating
-system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise,
-two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+_Namespaces/নেমস্পেস_ এই সমস্যার সমাধান করেছে. পিএইচপি রেফারেন্স ম্যানুয়ালটিতে বলা হিসাবে, নেমস্পেস  অপারেটিং সিস্টেম ডিরেক্টরিগুলির সাথে তুলনা করা যেতে পারে যা একই নামের দুটি ফাইল পৃথক ডিরেক্টরিতে থাকতে পারে। ঠিক একই ভাবে দুটি  একই নামের PHP ক্লাস দুটি আলাদা নেমস্পেস এ থাকতে পারে যা ঐটার মতোই সহজ।
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding
-with other libraries.
+আপনার কোড লেখার ক্ষেত্রে নেমস্পেস ব্যবহার করা আপনার পক্ষে গুরুত্বপূর্ণ যাতে এটি অন্যান্য ডেভেলপারদের কোডের সাথে সংঘর্ষের/কনফ্লিক্ট এর আশঙ্কা ছাড়াই অন্য ডেভেলপাররা ব্যবহার করতে পারেন।
 
-One recommended way to use namespaces is outlined in [PSR-4][psr4], which aims to provide a standard file, class and
-namespace convention to allow plug-and-play code.
+নেমস্পেসগুলি ব্যবহার করার একটি প্রস্তাবিত উপায় [PSR-4][psr4] এ বর্ণিত হয়েছে,যার লক্ষ্য প্লাগ-এন্ড-প্লে কোডের জন্য একটি স্ট্যান্ডার্ড ফাইল, ক্লাস এবং নেমস্পেস কনভেনশন প্রোভাইড করা।
 
-In October 2014 the PHP-FIG deprecated the previous autoloading standard: [PSR-0][psr0]. Both PSR-0 and PSR-4 are still perfectly usable.  The latter requires PHP 5.3, so many PHP 5.2-only projects implement PSR-0.
+অক্টোবর ২০১৪-এ PHP-FIG পূর্ববর্তী অটোলোডিং মানটি হ্রাস করেছে:[PSR-0][psr0]. PSR-0 এবং PSR-4 উভয়ই নিখুঁতভাবে ব্যবহারযোগ্য।  পরবর্তী পিএইচপি 5.3 প্রয়োজন, তাই অনেকগুলি পিএইচপি 5.2-কেবলমাত্র PSR-0 বাস্তবায়ন করে।
 
-If you're going to use an autoloader standard for a new application or package, look into PSR-4.
+আপনি যদি নতুন অ্যাপ্লিকেশন বা প্যাকেজের জন্য অটোলোডার স্ট্যান্ডার্ড ব্যবহার করতে চান তবে PSR-4 দেখুন।
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
-* [Read about PSR-4][psr4]
+* [Namespaces সম্পর্কে পড়ুন][namespaces]
+* [PSR-0 সম্পর্কে পড়ুন][psr0]
+* [PSR-4 সম্পর্কে পড়ুন][psr4]
 
 
 [namespaces]: https://secure.php.net/language.namespaces
